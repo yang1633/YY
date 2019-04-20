@@ -1,0 +1,22 @@
+/*去掉这些标签的默认样式*/
+body,p,ul,dl,h1,h2,h3,h4,h5,h6,pre,li,ol,dl,dt,table,dd,form{
+    margin: 0px;
+    padding: 0;
+}
+/*去掉标签默认样式如小黑点一样的标记*/
+ul,ol,li{
+    list-style: none;
+}
+body{
+    background-color: #f0f4f4;
+    font: 16px/1.5 "Microsoft YaHei",SansSerif;
+}
+a{
+    text-decoration: none;
+    /*color: #41bc41;*/
+    /*text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;*/
+
+
+}
